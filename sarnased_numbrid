@@ -1,0 +1,7 @@
+a = input("Sisesta esimene number:  ")
+a2 = input("Sisesta teine number:  ")
+a3 = input("Sisesta kolmas number:  ")
+if a == a2 and a == a3:
+        print("Numbrid on võrdsed")
+else:
+        print("Numbrid ei ole võrdsed")
