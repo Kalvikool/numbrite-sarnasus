@@ -1,7 +1,9 @@
-a = input("Sisesta esimene number:  ")
-a2 = input("Sisesta teine number:  ")
-a3 = input("Sisesta kolmas number:  ")
+a = int(input("Sisesta esimene number:  "))
+a2 = int(input("Sisesta teine number:  "))
+a3 = int(input("Sisesta kolmas number:  "))
 if a == a2 and a == a3:
         print("Numbrid on võrdsed")
+        print(a * a2 * a3)
 else:
         print("Numbrid ei ole võrdsed")
+        print(a + a2 + a3)
